@@ -1,0 +1,310 @@
+#navbar {
+    transition: top 0.3s;
+    top: 0;
+    width: 100%; /* Full width */
+}
+
+#subnav {
+    transition: top 0.3s;
+}
+
+.toplink {
+    color: aquamarine;
+    font-size: medium;
+    padding: 0.5rem;
+}
+.fixed-top {
+    position: fixed;
+}
+
+div.fixed-top {
+    top: 5rem;
+}
+
+
+.toplink:hover {
+    color: black;
+    background-color: #7FFFD4;
+}
+
+.toplink:active {
+    color: black;
+    background-color: #7FFFD4;
+}
+
+.register-back {
+    height: 100%;
+    width: 100%;
+    background-image: url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box {
+    text-align: center;
+    width: 380px;
+    height: 400px;
+    top: 5rem;
+    position: relative;
+    margin: 5% auto;
+    background-color: #bbf0f3;
+background-image: linear-gradient(315deg, #bbf0f3 0%, #f6d285 74%);
+    padding: 7px;
+    border-radius: 10%;
+}
+
+.register-group {
+    top: 50px;
+    width: 280px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.input-box {
+    width: 100%;
+    padding: 15px 10px;
+    margin: 15px 30px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid;
+    outline: none;
+    background: transparent;
+}
+
+
+.btn-toggle {
+    position: center;
+    margin-left: 75px;
+}
+
+.message {
+    color: red;
+}
+
+.login-back {
+    height: 100%;
+    width: 100%;
+    background-image: url(nature.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.login-form-box {
+    text-align: center;
+    width: 380px;
+    height: 400px;
+    position: relative;
+    margin: 5% auto;
+    top: 10%;
+    background-color: #eec0c6;
+background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    padding: 7px;
+    border-radius: 10%;
+}
+
+
+.about-back {
+    height: 100%;
+    width: 100%;
+    background-image: url(about-back.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.text-box-top {
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background: white;
+    margin-bottom: 200px;
+}
+
+.text-box-bottom {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+    position: relative;
+    background: white;
+}
+
+.profile {
+    height: 250px;
+    width: 300px;
+    border: 0;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+p {
+    text-align: left;
+    font-size: x-large;
+    padding: 10px 100px;
+}
+
+.bg-share {
+    height: 100%;
+    width: 100%;
+    background-image: url(share-back.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+}
+
+.share-box {
+    height: 100%;
+    margin-right: 200px;
+    margin-left: 200px;
+    position: relative;
+    background: rgba(76, 175, 80, 0.5);
+}
+
+.questions {
+    padding: 10px 6px;
+    margin-left: 30px;
+    font-size: 25px;
+    border-bottom: 0.5px solid;
+    border-color: #ccc;
+}
+
+.question-head {
+    padding: 11px 15px;
+    margin-left: 20px;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+textarea {
+    resize: none;
+    width: 90%;
+}
+
+footer {
+    background: RoyalBlue;
+    font-size: 15px;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.col-sm-4 {
+    padding: 1rem;
+}
+
+.cardib {
+    position: relative;
+    padding: 1.875rem 0.31rem;
+    margin-right: 0.625rem;
+    margin-left: 0.625rem;
+    background: rgba(255, 255, 255, 0.7);
+
+}
+
+.card-body {
+    height: 16rem;
+    overflow: hidden;
+}
+
+.p-card {
+    padding: 0.625rem;
+}
+
+.cardib:hover {
+    background-color: rgb(250, 250, 210);
+    transition: background-color 1.67s;
+}
+
+.card-header {
+    font-family: Impact, sans-serif;
+}
+
+.index-back {
+    height: 100%;
+    width: 100%;
+    background-image: url(banner.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+}
+
+.navi-index {
+    background: olivedrab;
+    color: white;
+}
+
+.me-back {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(share-back.jpg);
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+}
+
+.me-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+.menu-btns {
+    height: 12.5%;
+    background: crimson;
+    border: 2px solid;
+    padding: 5% 5%;
+    text-align: center;
+    border-radius: 20%;
+    cursor: pointer;
+    font-size: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding-bottom: 15px;
+}
+
+.content-back{
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+}
+
+.content {
+    height: auto;
+    min-height: 80%;
+    margin-right: 200px;
+    margin-left: 200px;
+    background: rgba(255, 255, 255, 0.7);
+    position: relative;
+    margin-top: 6%;
+    font: optima;
+}
+
+
+.footer1 {
+    background: IndianRed;
+    font-size: 0.938rem;
+    padding: 0.938rem 0.625rem;
+    text-align: center;
+    color: white;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

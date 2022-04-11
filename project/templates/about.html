@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    About developer
+{% endblock %}
+
+{% block main %}
+
+    <div class='about-back'>
+        <div class='text-box-top'>
+            `
+            <h1 style='font-size: 50px;padding-top: 20px; font-family: Copperplate Gothic Light; margin-top: 10%;'><B>Environ</B></h1>
+            <h1><img class='profile' src='/static/Environ-logos_white.png' style='background: #333;'></h1>
+        </div>
+        .
+        <div class='text-box-bottom'>
+            <h1 style='font-size: 100px;'>&uarr;</h1>
+            <h1 style='font-size: 30px;'>Earth after some years</h1>
+            <div class='text'>
+                <img src='/static/about1.jpg' style='float: right;'>
+                <p>
+                    Environ is a platform where one can be aware 'bout the environment and can also share facts, spread awareness
+                    and promote saving the environment.
+                </p>
+                <p>
+                    All you have to do to share is register (it's free). Then you can conveniently go to the share option and share
+                    to your heart's content. To ultimately contribute in saving the world from it's almost inevitable future.
+                </p>
+                <img src='/static/about2.jpg' style='float: left; padding: 10px;'>
+                <p>
+                    This site aims to spread awareness about the environment, to spread ideas that will lead a individual to live a
+                    life that is least damaging to the environment, for people to be conscious about their immediate surroundings.
+                    Although all of this feels irrelevant or un-important, there will be a time when people will regret not caring about
+                    the Earth, our one and only home.
+                </p>
+                <p>
+                    It is not about not using our resourses at all but about using them smartly, in such a way that they are least or even
+                    0% damaging to the environment.
+                </p>
+                <img src='/static/about3.jpg' style='float: right;'>
+                <p>
+                    Most people think that to make the Earth pollution free, they will have to invest money, time, or the luxuries
+                    or all of the above; and most of the time thats the case.
+                    But what if we work more smartly, what if we only invest by making ourselves aware, to motivate the people who
+                    do research about these technologies and let them do the hard-work.
+                    This way we won't have to invest in money (maybe a little), nor in time as the reasearchers are the ones doing th
+                    work and neither in luxuries because the researchers will surely develop newer and better technology in terms of utility
+                    as well as pollutibility.
+                </p>
+            </div>
+            <footer>
+                {{ quote.message }}
+            </footer>
+            <footer class='footer1'>
+                Developed with Love by Aditya Samdadia!
+            </footer>
+        </div>
+    </div>
+
+
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Environ: Login
+{% endblock %}
+
+{% block main %}
+<div class='login-back'>
+  <div class='login-form-box'>
+      <h2><u>Sign in</u></h2>
+      <form action='/login' method='post' class='register-group'>
+          <div class='message'>{{ message }}</div>
+          <input name='username' placeholder='Username' autofocus autocomplete='off' type='text' class='input-box'>
+          <input name='password' placeholder='Password' autofocus autocomplete='off' type='password' class='input-box'>
+          <button type='submit' class='btn btn-primary btn-toggle'>Login</button>
+          <br>
+          <br>
+          Log in to share your ideas with the world, to ultimately save it!
+      </form>
+  </div>
+  <footer style='position: fixed; bottom: 3rem;'>
+    {{ quote.message }}
+  </footer>
+  <footer class='footer1' style='position: fixed;'>
+      Developed with Love by Aditya Samdadia!
+  </footer>
+</div>
+
+
+{% endblock %}
